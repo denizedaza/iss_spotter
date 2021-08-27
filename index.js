@@ -44,12 +44,6 @@ nextISSTimesForMyLocation((error, passTimes) => {
   }
 
   printPassTimes(passTimes);
-  /*   
-  
-  "response": [
-    {"risetime": TIMESTAMP, "duration": DURATION},
-    ...
-  ]
-} 
-  */
 });
+
+module.exports = printPassTimes;
